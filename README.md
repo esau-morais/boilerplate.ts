@@ -5,8 +5,10 @@
 
 - [X] ESLint most used rules
 - [X] Tailwind CSS default configuration
-- [ ] Unit testing with Vitest
-- [ ] Continuous Integration with GitHub Actions
+- [X] Unit testing with Vitest
+- [X] Continuous Integration with GitHub Actions
+- [ ] E2E Testing with Cypress
+- [ ] Dockerize project
 
 ## 🛠️ Setup
 
