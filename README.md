@@ -1,14 +1,14 @@
 # boilerplate.ts
 ⚛️ React + TypeScript Boilerplate
 
-## ⚡Features
+## ⚡ Features
 
 - [X] ESLint most used rules
 - [X] Tailwind CSS default configuration
 - [X] Unit testing with Vitest
 - [X] Continuous Integration with GitHub Actions
 - [ ] E2E Testing with Cypress
-- [ ] Dockerize project
+- [X] Dockerize project
 
 ## 🛠️ Setup
 
@@ -20,16 +20,30 @@
 gh repo clone your-username/boilerplate.ts
 ```
 
-3. Install the dependencies
+3. Installing (using yarn)
 
 ```
-yarn
+yarn install 
 ```
 
-4. Run the application
+4. Running (using yarn)
 
 ```
 yarn dev
+```
+
+> :information_source: If you want to use Docker alternatively, check down below:
+
+3. Installing (using Docker)
+
+```
+docker compose build 
+```
+
+4. Running (using Docker)
+
+```
+docker compose up
 ```
 
 ## ✏️ LICENSE
